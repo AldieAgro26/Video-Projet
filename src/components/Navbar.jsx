@@ -31,7 +31,7 @@ export const Navbar = () => {
 
                 <a href="#" className="bg-linear-to-r from-orange-800 to-orange-800 py-2 px-3 rounded-md">Create an account</a>
             </div>
-             <div className="lg:hidden md-flex justify-end">
+             <div className="lg:hidden md-flex  justify-end">
                 <button onClick={toggleNavebar}>
                 {mobileDrawerOpen ? <X/> : <Menu/>}
                 </button>
